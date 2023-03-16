@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "AutomergeCollectionBenchmarks",
-    platforms: [.macOS(.v10_15)],
+    platforms: [.macOS(.v10_13)],
     dependencies: [
         .package(url: "https://github.com/apple/swift-collections-benchmark", from: "0.0.1"),
         .package(path: "../")
