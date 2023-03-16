@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "Automerge",
-    platforms: [.iOS(.v13), .macOS(.v10_15)],
+    platforms: [.iOS(.v13), .macOS(.v10_13)],
     products: [
         .library(name: "Automerge", targets: ["Automerge"]),
     ],
